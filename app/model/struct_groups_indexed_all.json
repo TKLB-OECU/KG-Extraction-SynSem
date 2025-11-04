@@ -1,0 +1,2272 @@
+{
+  "0": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X3]に[Y3]された",
+    "has_parallel": false
+  },
+  "1": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=サ変),LiteralNode(した))",
+    "representative_pattern": "[X3]が[Y4-サ変]した",
+    "has_parallel": false
+  },
+  "2": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X5]が[Y2]",
+    "has_parallel": false
+  },
+  "3": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X4]によって[Y3]",
+    "has_parallel": false
+  },
+  "4": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(されました))",
+    "representative_pattern": "[X4]に[Y4]されました",
+    "has_parallel": false
+  },
+  "5": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=サ変),LiteralNode(した))",
+    "representative_pattern": "[X3]を[Y2-サ変]した",
+    "has_parallel": false
+  },
+  "6": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X3]が[Y3]した",
+    "has_parallel": false
+  },
+  "7": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X3]&[X4]が[Y2]",
+    "has_parallel": true
+  },
+  "8": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=サ変),LiteralNode(し))",
+    "representative_pattern": "[X2]が[Y3-サ変]し",
+    "has_parallel": false
+  },
+  "9": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が))",
+    "representative_pattern": "[Y2]&[Y3]は[X3]が",
+    "has_parallel": true
+  },
+  "10": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[Y2]&[Y3]は[X2]",
+    "has_parallel": true
+  },
+  "11": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X3]を[Y3]した",
+    "has_parallel": false
+  },
+  "12": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X3]を[Y3]し",
+    "has_parallel": false
+  },
+  "13": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X3]は[Y3]",
+    "has_parallel": false
+  },
+  "14": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X3]によって[Y3]&[Y4]",
+    "has_parallel": true
+  },
+  "15": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=サ変),LiteralNode(を))",
+    "representative_pattern": "[X3]が[Y3-サ変]を",
+    "has_parallel": false
+  },
+  "16": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X3]が[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "17": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(に))",
+    "representative_pattern": "[X2]を[Y2]に",
+    "has_parallel": false
+  },
+  "18": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(とした))",
+    "representative_pattern": "[X2]を[Y2]とした",
+    "has_parallel": false
+  },
+  "19": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=),LiteralNode(として))",
+    "representative_pattern": "[X2]も[Y3]として",
+    "has_parallel": false
+  },
+  "20": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(です))",
+    "representative_pattern": "[X2]の[Y2]です",
+    "has_parallel": false
+  },
+  "21": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(され))",
+    "representative_pattern": "[X2]に[Y3]され",
+    "has_parallel": false
+  },
+  "22": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=サ変),LiteralNode(され))",
+    "representative_pattern": "[X2]に[Y2-サ変]され",
+    "has_parallel": false
+  },
+  "23": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(も))",
+    "representative_pattern": "[X2]が[Y3]も",
+    "has_parallel": false
+  },
+  "24": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X2]が[Y3]し",
+    "has_parallel": false
+  },
+  "25": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X2]が[Y2]する",
+    "has_parallel": false
+  },
+  "26": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X2]が[Y2]&[Y3]",
+    "has_parallel": true
+  },
+  "27": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(は),VariableNode(symbol=Y,pos=),LiteralNode(です))",
+    "representative_pattern": "[X2]&[X3]は[Y2]です",
+    "has_parallel": true
+  },
+  "28": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は[X2]が[Y1]し",
+    "has_parallel": false
+  },
+  "29": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]で[Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "30": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]&[X2]によって[Y2]",
+    "has_parallel": true
+  },
+  "31": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(された))",
+    "representative_pattern": "[X1]は、[X2]によって[Y1]&[Y2]された",
+    "has_parallel": true
+  },
+  "32": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(によって),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]は、[X2]によって[Y1]",
+    "has_parallel": false
+  },
+  "33": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(によって))",
+    "representative_pattern": "[Y5]は[X4]によって",
+    "has_parallel": false
+  },
+  "34": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(です))",
+    "representative_pattern": "[Y1]は[X1]です",
+    "has_parallel": false
+  },
+  "35": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(も),VariableNode(symbol=X,pos=),LiteralNode(です))",
+    "representative_pattern": "[Y2]も[X2]です",
+    "has_parallel": false
+  },
+  "36": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(も),VariableNode(symbol=X,pos=),LiteralNode(が))",
+    "representative_pattern": "[Y1]も[X1]が",
+    "has_parallel": false
+  },
+  "37": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(も),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[Y2]も[X2]",
+    "has_parallel": false
+  },
+  "38": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(も),VariableNode(symbol=X,pos=サ変),LiteralNode(である))",
+    "representative_pattern": "[Y2]も[X2-サ変]である",
+    "has_parallel": false
+  },
+  "39": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が))",
+    "representative_pattern": "[Y2]は[X3]&[X4]が",
+    "has_parallel": true
+  },
+  "40": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[Y1]は[X1]",
+    "has_parallel": false
+  },
+  "41": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が))",
+    "representative_pattern": "[Y1]は[X1]が",
+    "has_parallel": false
+  },
+  "42": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(です))",
+    "representative_pattern": "[Y2]は[X2]&[X3]&[X4]です",
+    "has_parallel": true
+  },
+  "43": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)))",
+    "representative_pattern": "[Y2]&[Y3]は[X2]&[X3]&[X4]",
+    "has_parallel": true
+  },
+  "44": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(を),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が))",
+    "representative_pattern": "[Y1]を[X1]&[X2]が",
+    "has_parallel": true
+  },
+  "45": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[Y1]は[X1]に[Y2]",
+    "has_parallel": false
+  },
+  "46": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(に))",
+    "representative_pattern": "[Y1]は[X1]&[X2]に",
+    "has_parallel": true
+  },
+  "47": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(です))",
+    "representative_pattern": "[Y1]は[X1]&[X2]です",
+    "has_parallel": true
+  },
+  "48": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(でした))",
+    "representative_pattern": "[Y1]は[X1]&[X2]でした",
+    "has_parallel": true
+  },
+  "49": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(です))",
+    "representative_pattern": "[Y1]は、[X1]&[X2]です",
+    "has_parallel": true
+  },
+  "50": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(は、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)))",
+    "representative_pattern": "[Y1]は、[X1]&[X2]&[X3]",
+    "has_parallel": true
+  },
+  "51": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[Y1]の[X1]は",
+    "has_parallel": false
+  },
+  "52": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[Y1]の[X1]の[X2]である",
+    "has_parallel": false
+  },
+  "53": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(による),VariableNode(symbol=X,pos=),LiteralNode(です))",
+    "representative_pattern": "[Y1]による[X2]です",
+    "has_parallel": false
+  },
+  "54": {
+    "structure_key": "Sequence(VariableNode(symbol=Y,pos=),LiteralNode(として),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)))",
+    "representative_pattern": "[Y1]として[X1]&[X2]&[X3]",
+    "has_parallel": true
+  },
+  "55": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が))",
+    "representative_pattern": "[Y1]&[Y2]は[X1]&[X2]が",
+    "has_parallel": true
+  },
+  "56": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(は、),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[Y1]&[Y2]は、[X1]",
+    "has_parallel": true
+  },
+  "57": {
+    "structure_key": "Sequence(Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[Y1]&[*1Y2]は[X1]",
+    "has_parallel": true
+  },
+  "58": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]を[Y1]",
+    "has_parallel": false
+  },
+  "59": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=サ変),LiteralNode(された))",
+    "representative_pattern": "[X4]に[Y4-サ変]された",
+    "has_parallel": false
+  },
+  "60": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]が[Y1]を",
+    "has_parallel": false
+  },
+  "61": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=),LiteralNode(が))",
+    "representative_pattern": "[X3]も[Y3]が",
+    "has_parallel": false
+  },
+  "62": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=Y,pos=),LiteralNode(も))",
+    "representative_pattern": "[X1]は[Y1]も",
+    "has_parallel": false
+  },
+  "63": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=Y,pos=),LiteralNode(でもあります))",
+    "representative_pattern": "[X3]は[Y3]でもあります",
+    "has_parallel": false
+  },
+  "64": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]に[Y1]",
+    "has_parallel": false
+  },
+  "65": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X3]に[X4]で[Y4]された",
+    "has_parallel": false
+  },
+  "66": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(と),VariableNode(symbol=Y,pos=),LiteralNode(た))",
+    "representative_pattern": "[X3]と[Y2]た",
+    "has_parallel": false
+  },
+  "67": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(され、),VariableNode(symbol=Y,pos=),LiteralNode(となった))",
+    "representative_pattern": "[X3]で[Y3]され、[Y4]となった",
+    "has_parallel": false
+  },
+  "68": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=サ変),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X3]が[Y3-サ変]を[Y4]した",
+    "has_parallel": false
+  },
+  "69": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X3]が[*1Y2]を",
+    "has_parallel": false
+  },
+  "70": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(しました))",
+    "representative_pattern": "[X3]&[X4]を[Y2]しました",
+    "has_parallel": true
+  },
+  "71": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(はまた、),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(しました))",
+    "representative_pattern": "[X3]&[X4]はまた、[X5]を[Y2]しました",
+    "has_parallel": true
+  },
+  "72": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(の),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X3]&[X4]の[Y2]",
+    "has_parallel": true
+  },
+  "73": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=サ変),LiteralNode(としている))",
+    "representative_pattern": "[X2]を[Y2-サ変]としている",
+    "has_parallel": false
+  },
+  "74": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=サ変),LiteralNode(として))",
+    "representative_pattern": "[X2]も[Y3-サ変]として",
+    "has_parallel": false
+  },
+  "75": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X2]も[Y2]",
+    "has_parallel": false
+  },
+  "76": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=サ変),LiteralNode(です))",
+    "representative_pattern": "[X2]も[Y2-サ変]です",
+    "has_parallel": false
+  },
+  "77": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=サ変),LiteralNode(である))",
+    "representative_pattern": "[X2]も[Y2-サ変]である",
+    "has_parallel": false
+  },
+  "78": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=サ変),LiteralNode(し))",
+    "representative_pattern": "[X2]も[Y2-サ変]し",
+    "has_parallel": false
+  },
+  "79": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(はまた、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X2]はまた、[*1Y3]",
+    "has_parallel": false
+  },
+  "80": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X2]によって[Y3]された",
+    "has_parallel": false
+  },
+  "81": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(され、),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X2]で[Y2]され、[X3]",
+    "has_parallel": false
+  },
+  "82": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]で[Y1]",
+    "has_parallel": false
+  },
+  "83": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=サ変))",
+    "representative_pattern": "[X2]で[Y2-サ変]",
+    "has_parallel": false
+  },
+  "84": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(しました))",
+    "representative_pattern": "[X2]が[Y2]しました",
+    "has_parallel": false
+  },
+  "85": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X2]&[X3]に[Y4]された",
+    "has_parallel": true
+  },
+  "86": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X2]&[X3]&[X4]によって[Y2]",
+    "has_parallel": true
+  },
+  "87": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(にしており、))",
+    "representative_pattern": "[X1]を[Y1]にしており、",
+    "has_parallel": false
+  },
+  "88": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(とする),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]を[Y1]とする[X2]の[X3]である",
+    "has_parallel": false
+  },
+  "89": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(とする),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(て),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]を[Y1]とする[X2]に[Y2]て[*1X3]を[Y3]した",
+    "has_parallel": false
+  },
+  "90": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(とする))",
+    "representative_pattern": "[X1]を[Y1]とする",
+    "has_parallel": false
+  },
+  "91": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(とし))",
+    "representative_pattern": "[X1]を[Y1]とし",
+    "has_parallel": false
+  },
+  "92": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(しました))",
+    "representative_pattern": "[X1]を[Y1]しました",
+    "has_parallel": false
+  },
+  "93": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(したのは),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]を[Y1]したのは[X2]",
+    "has_parallel": false
+  },
+  "94": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(したが、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]を[Y1]したが、[*1X2]が[X3]である",
+    "has_parallel": false
+  },
+  "95": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]を[Y1]した[X2]は",
+    "has_parallel": false
+  },
+  "96": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]を[Y1][X2]は",
+    "has_parallel": false
+  },
+  "97": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=サ変))",
+    "representative_pattern": "[X1]を[Y1-サ変]",
+    "has_parallel": false
+  },
+  "98": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]を[X2]に[Y1]した",
+    "has_parallel": false
+  },
+  "99": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]も[Y1]している",
+    "has_parallel": false
+  },
+  "100": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は[Y1]を[Y2]し",
+    "has_parallel": false
+  },
+  "101": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "102": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(です))",
+    "representative_pattern": "[X1]は[Y1]&[Y2]です",
+    "has_parallel": true
+  },
+  "103": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=Y,pos=),LiteralNode(、),VariableNode(symbol=Y,pos=),LiteralNode(、),VariableNode(symbol=Y,pos=),LiteralNode(されました))",
+    "representative_pattern": "[X1]は[Y1]、[Y2]、[Y3]されました",
+    "has_parallel": false
+  },
+  "104": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=Y,pos=サ変),LiteralNode(され、),VariableNode(symbol=X,pos=),LiteralNode(によって),VariableNode(symbol=Y,pos=サ変),LiteralNode(されました))",
+    "representative_pattern": "[X1]は[Y1-サ変]され、[X2]によって[Y2-サ変]されました",
+    "has_parallel": false
+  },
+  "105": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(とする),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(で))",
+    "representative_pattern": "[X1]は[X2]を[Y1]とする[X3]の[X4]で",
+    "has_parallel": false
+  },
+  "106": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(としている))",
+    "representative_pattern": "[X1]は[X2]を[Y1]としている",
+    "has_parallel": false
+  },
+  "107": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は[X2]を[Y1]した",
+    "has_parallel": false
+  },
+  "108": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は[X2]を[Y1]し",
+    "has_parallel": false
+  },
+  "109": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(も))",
+    "representative_pattern": "[X1]は[X2]を[Y1]&[Y2]も",
+    "has_parallel": true
+  },
+  "110": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(しました))",
+    "representative_pattern": "[X1]は[X2]を[Y1]&[Y2]しました",
+    "has_parallel": true
+  },
+  "111": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(した))",
+    "representative_pattern": "[X1]は[X2]を[Y1]&[Y2]した",
+    "has_parallel": true
+  },
+  "112": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(し))",
+    "representative_pattern": "[X1]は[X2]を[Y1]&[Y2]し",
+    "has_parallel": true
+  },
+  "113": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(しました))",
+    "representative_pattern": "[X1]は[X2]を[Y1]&[Y2]&[Y3]&[Y4]しました",
+    "has_parallel": true
+  },
+  "114": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(した))",
+    "representative_pattern": "[X1]は[X2]を[Y1]&[Y2]&[Y3]&[Y4]した",
+    "has_parallel": true
+  },
+  "115": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]は[X2]を[Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "116": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]は[X2]を[Y1]",
+    "has_parallel": false
+  },
+  "117": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]は[X2]も[Y1]している",
+    "has_parallel": false
+  },
+  "118": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(です))",
+    "representative_pattern": "[X1]は[X2]の[Y1]です",
+    "has_parallel": false
+  },
+  "119": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(の),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(です))",
+    "representative_pattern": "[X1]は[X2]の[Y1]&[Y2]です",
+    "has_parallel": true
+  },
+  "120": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(の),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]は[X2]の[Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "121": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(で))",
+    "representative_pattern": "[X1]は[X2]の[X3]の[X4]を[Y1]した[X5]で",
+    "has_parallel": false
+  },
+  "122": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(による),VariableNode(symbol=X,pos=),LiteralNode(であり))",
+    "representative_pattern": "[X1]は[X2]の[X3]の[X4]による[X5]であり",
+    "has_parallel": false
+  },
+  "123": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(で))",
+    "representative_pattern": "[X1]は[X2]の[X3]で",
+    "has_parallel": false
+  },
+  "124": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(の),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(の),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]は[X2]の[X3]&[X4]の[X5]",
+    "has_parallel": true
+  },
+  "125": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]は[X2]の[X3]",
+    "has_parallel": false
+  },
+  "126": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(の),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(を),ModifierRepeat(kind=#,dep=連用修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(した))",
+    "representative_pattern": "[X1]は[X2]の[*1X3]、[X4]を[#1Y1]した",
+    "has_parallel": false
+  },
+  "127": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(によって))",
+    "representative_pattern": "[X1]は[X2]によって",
+    "has_parallel": false
+  },
+  "128": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(される))",
+    "representative_pattern": "[X1]は[X2]に[Y1]される",
+    "has_parallel": false
+  },
+  "129": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(され))",
+    "representative_pattern": "[X1]は[X2]に[Y1]され",
+    "has_parallel": false
+  },
+  "130": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]は[X2]に[Y1]",
+    "has_parallel": false
+  },
+  "131": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=X,pos=),LiteralNode(によって),VariableNode(symbol=Y,pos=),LiteralNode(され))",
+    "representative_pattern": "[X1]は[X2]に[X3]によって[Y1]され",
+    "has_parallel": false
+  },
+  "132": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]に[X3]が[Y1]&[Y2]&[Y3]を",
+    "has_parallel": true
+  },
+  "133": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(という),VariableNode(symbol=Y,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X1]は[X2]という[Y1]に[Y2]する",
+    "has_parallel": false
+  },
+  "134": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(という),VariableNode(symbol=X,pos=),LiteralNode(であり))",
+    "representative_pattern": "[X1]は[X2]という[X3]であり",
+    "has_parallel": false
+  },
+  "135": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(である),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]である[X3]が[Y1]を",
+    "has_parallel": false
+  },
+  "136": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]は[X2]である",
+    "has_parallel": false
+  },
+  "137": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(であり、),VariableNode(symbol=Y,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(される))",
+    "representative_pattern": "[X1]は[X2]であり、[Y1]は[X3]に[Y2]される",
+    "has_parallel": false
+  },
+  "138": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(で),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]で[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "139": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(しました))",
+    "representative_pattern": "[X1]は[X2]で[X3]を[Y1]しました",
+    "has_parallel": false
+  },
+  "140": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は[X2]で[X3]を[Y1]した",
+    "has_parallel": false
+  },
+  "141": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(で),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(む),ModifierRepeat(kind=*,dep=連体修飾,count=2,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は[X2]で[X3]&[X4]を[Y1]む[*2X5]を[Y2]し",
+    "has_parallel": true
+  },
+  "142": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]が[Y1]を[X3]が[Y2]を",
+    "has_parallel": false
+  },
+  "143": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),ModifierRepeat(kind=#,dep=連用修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(し),VariableNode(symbol=Y,pos=),LiteralNode(も))",
+    "representative_pattern": "[X1]は[X2]が[Y1]を[#1Y2]し[Y3]も",
+    "has_parallel": false
+  },
+  "144": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]が[Y1]を、[X3]&[X4]が[Y2]を",
+    "has_parallel": true
+  },
+  "145": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]が[Y1]を",
+    "has_parallel": false
+  },
+  "146": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X1]は[X2]が[Y1]する",
+    "has_parallel": false
+  },
+  "147": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]は[X2]が[Y1]した[X3]",
+    "has_parallel": false
+  },
+  "148": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は[X2]が[Y1]した",
+    "has_parallel": false
+  },
+  "149": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]が[Y1]し[X3]が[Y2]を",
+    "has_parallel": false
+  },
+  "150": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(も),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]は[X2]が[Y1]し、[Y2]&[Y3]も[Y4]",
+    "has_parallel": true
+  },
+  "151": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、),VariableNode(symbol=X,pos=),LiteralNode(と),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]が[Y1]し、[X3]と[*1Y2]を",
+    "has_parallel": false
+  },
+  "152": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]が[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "153": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(し))",
+    "representative_pattern": "[X1]は[X2]が[Y1]&[Y2]し",
+    "has_parallel": true
+  },
+  "154": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]が[Y1]&[Y2]&[Y3]を",
+    "has_parallel": true
+  },
+  "155": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]が[Y1]&[Y2]&[Y3]&[Y4]&[Y5]&[Y6]を",
+    "has_parallel": true
+  },
+  "156": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]が[Y1]、[X3]が[Y2]、[X4]が[Y3]を",
+    "has_parallel": false
+  },
+  "157": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]は[X2]が[X3]に[Y1]した[X4]",
+    "has_parallel": false
+  },
+  "158": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(に),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X2]が[X3]に[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "159": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は[X2]&[Y3]が[Y1]し",
+    "has_parallel": true
+  },
+  "160": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(という))",
+    "representative_pattern": "[X1]は[X2]&[X3]という",
+    "has_parallel": true
+  },
+  "161": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(と),Parallel(ModifierRepeat(kind=#,dep=連用修飾,count=1,head=VariableNode(symbol=X,pos=))|ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=))),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は[X2]&[X3]と[#1X4]&[*1X5]を[Y1]し",
+    "has_parallel": true
+  },
+  "162": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]は[X2]&[X3]が[Y1]を[Y2]",
+    "has_parallel": true
+  },
+  "163": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]は[X2]&[X3]が[Y1]",
+    "has_parallel": true
+  },
+  "164": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(とする),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(に),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は[X1]を[Y1]とする[X3]&[X4]に[Y2]&[Y3]を",
+    "has_parallel": true
+  },
+  "165": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierBlockRepeat(kind=#,dep=連用修飾,count=4,block=Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),head=),LiteralNode(でした))",
+    "representative_pattern": "[X1]は[#4([Y1]&[Y2]&[Y3])]でした",
+    "has_parallel": true
+  },
+  "166": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=2,head=VariableNode(symbol=X,pos=)),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X1]は[*2X2]に[Y1]された",
+    "has_parallel": false
+  },
+  "167": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=2,head=VariableNode(symbol=X,pos=)),LiteralNode(である),VariableNode(symbol=X,pos=),LiteralNode(に),ModifierRepeat(kind=#,dep=連用修飾,count=1,head=VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]は[*2X2]である[X3]に[#1Y1]",
+    "has_parallel": false
+  },
+  "168": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=2,head=VariableNode(symbol=X,pos=)),LiteralNode(で、),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(、),VariableNode(symbol=Y,pos=),LiteralNode(もしている))",
+    "representative_pattern": "[X1]は[*2X2]で、[X3]が[Y1]&[Y2]を[Y3]、[Y4]もしている",
+    "has_parallel": true
+  },
+  "169": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(の))",
+    "representative_pattern": "[X1]は[*1Y1]の",
+    "has_parallel": false
+  },
+  "170": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(と),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は[*1Y1]と[Y2]を",
+    "has_parallel": false
+  },
+  "171": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(です))",
+    "representative_pattern": "[X1]は[*1Y1]です",
+    "has_parallel": false
+  },
+  "172": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(である))",
+    "representative_pattern": "[X1]は[*1Y1]である",
+    "has_parallel": false
+  },
+  "173": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(であり),VariableNode(symbol=Y,pos=),LiteralNode(です))",
+    "representative_pattern": "[X1]は[*1Y1]であり[Y2]です",
+    "has_parallel": false
+  },
+  "174": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は[*1Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "175": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)),LiteralNode(です))",
+    "representative_pattern": "[X1]は[*1Y1]&[Y2]です",
+    "has_parallel": true
+  },
+  "176": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)),LiteralNode(であり))",
+    "representative_pattern": "[X1]は[*1Y1]&[Y2]であり",
+    "has_parallel": true
+  },
+  "177": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(として))",
+    "representative_pattern": "[X1]は[*1Y1]&[Y2]&[Y3]&[Y4]として",
+    "has_parallel": true
+  },
+  "178": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]は[*1Y1]&[Y2]&[Y3]",
+    "has_parallel": true
+  },
+  "179": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]は[*1Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "180": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(として))",
+    "representative_pattern": "[X1]は[*1X2]を[Y1]として",
+    "has_parallel": false
+  },
+  "181": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),ModifierRepeat(kind=#,dep=連用修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(した))",
+    "representative_pattern": "[X1]は[*1X2]を[#1Y1]した",
+    "has_parallel": false
+  },
+  "182": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(において、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(する),VariableNode(symbol=X,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は[*1X2]において、[X3]に[Y1]する[X4]も[Y2]した",
+    "has_parallel": false
+  },
+  "183": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(で),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は[*1X2]で[X3]を[Y1]し",
+    "has_parallel": false
+  },
+  "184": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(で),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は[*1X2]で[X3]&[X4]を[Y1]し",
+    "has_parallel": true
+  },
+  "185": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は),ModifierBlockRepeat(kind=*,dep=連体修飾,count=1,block=Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),head=))",
+    "representative_pattern": "[X1]は[*1([Y1]&[Y2])]",
+    "has_parallel": true
+  },
+  "186": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(でもある),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[Y1]&[Y2]でもある[X2]が[Y3]&[Y4]を",
+    "has_parallel": true
+  },
+  "187": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=Y,pos=サ変),LiteralNode(も))",
+    "representative_pattern": "[X1]は、[Y1-サ変]も",
+    "has_parallel": false
+  },
+  "188": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(とする))",
+    "representative_pattern": "[X1]は、[X2]を[Y1]とする",
+    "has_parallel": false
+  },
+  "189": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は、[X2]を[Y1]し",
+    "has_parallel": false
+  },
+  "190": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(しました))",
+    "representative_pattern": "[X1]は、[X2]を[Y1]&[Y2]しました",
+    "has_parallel": true
+  },
+  "191": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[X2]を[Y1]&[Y2]した",
+    "has_parallel": true
+  },
+  "192": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]は、[X2]を[Y1]&[Y2]&[Y3]",
+    "has_parallel": true
+  },
+  "193": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]は、[X2]を[Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "194": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(の),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(です))",
+    "representative_pattern": "[X1]は、[X2]の[Y1]&[Y2]です",
+    "has_parallel": true
+  },
+  "195": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(の),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(となり、),VariableNode(symbol=X,pos=),LiteralNode(にも),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X1]は、[X2]の[*1X3]となり、[X4]にも[Y1]された",
+    "has_parallel": false
+  },
+  "196": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(において),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[X2]において[X3]を[Y1]した",
+    "has_parallel": false
+  },
+  "197": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(も))",
+    "representative_pattern": "[X1]は、[X2]に[Y1]された[X3]を[Y2]&[Y3]も",
+    "has_parallel": true
+  },
+  "198": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された),VariableNode(symbol=X,pos=),LiteralNode(に),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(も))",
+    "representative_pattern": "[X1]は、[X2]に[Y1]された[X3]に[Y1]&[Y2]も",
+    "has_parallel": true
+  },
+  "199": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]は、[X2]に[Y1]された[*1Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "200": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X1]は、[X2]に[Y1]された",
+    "has_parallel": false
+  },
+  "201": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[X2]に[X3]が[Y1]した",
+    "has_parallel": false
+  },
+  "202": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、))",
+    "representative_pattern": "[X1]は、[X2]に[X3]が[Y1]し、",
+    "has_parallel": false
+  },
+  "203": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]は、[X2]に[X3]が[Y1]",
+    "has_parallel": false
+  },
+  "204": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(での),VariableNode(symbol=X,pos=),LiteralNode(によって),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=X,pos=),LiteralNode(とする),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[X2]での[X3]によって[*1X4]を[X5]とする[*1X6]を[Y1]した",
+    "has_parallel": false
+  },
+  "205": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]は、[X2]である",
+    "has_parallel": false
+  },
+  "206": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(であり、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X2]であり、[X3]が[Y1]、[X4]が[Y2]を",
+    "has_parallel": false
+  },
+  "207": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[X2]で[X3]を[Y1]した",
+    "has_parallel": false
+  },
+  "208": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[X2]で[X3]の[X4]を[Y1]した",
+    "has_parallel": false
+  },
+  "209": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=X,pos=),LiteralNode(として),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X1]は、[X2]で[X3]として[Y1]する",
+    "has_parallel": false
+  },
+  "210": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(た),VariableNode(symbol=X,pos=),LiteralNode(の),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X2]た[X3]の[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "211": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(た),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(である))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]を[Y2]た[*1X3]である",
+    "has_parallel": false
+  },
+  "212": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]を[Y2]し",
+    "has_parallel": false
+  },
+  "213": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(も))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]も",
+    "has_parallel": false
+  },
+  "214": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(であり、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]であり、[X3]が[Y2]を",
+    "has_parallel": false
+  },
+  "215": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]した",
+    "has_parallel": false
+  },
+  "216": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(をした),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]し、[X3]が[Y2]をした[X4]",
+    "has_parallel": false
+  },
+  "217": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]し、[X3]が[Y2]&[Y3]&[Y4]を",
+    "has_parallel": true
+  },
+  "218": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]し、[X3]が[Y2]、[X4]が[Y3]を",
+    "has_parallel": false
+  },
+  "219": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]し",
+    "has_parallel": false
+  },
+  "220": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "221": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]&[Y2]&[Y3]を",
+    "has_parallel": true
+  },
+  "222": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X2]が[Y1]&[Y2]&[Y3]&[Y4]を",
+    "has_parallel": true
+  },
+  "223": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[X2]が[X3]に[Y1]した",
+    "has_parallel": false
+  },
+  "224": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]は、[X2]が[X3]&[X4]を[Y1]し",
+    "has_parallel": true
+  },
+  "225": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X2]&[X3]が[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "226": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),ModifierBlockRepeat(kind=*,dep=連体修飾,count=1,block=Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),head=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(に),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X2]&[X3]が[*1([X4]&[X5])]を[Y1]に[Y2]&[Y3]を",
+    "has_parallel": true
+  },
+  "227": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[X1]が[Y1]を",
+    "has_parallel": false
+  },
+  "228": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=2,head=VariableNode(symbol=X,pos=))|ModifierRepeat(kind=*,dep=連体修飾,count=2,head=VariableNode(symbol=X,pos=))),LiteralNode(、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(による),VariableNode(symbol=X,pos=),LiteralNode(といった、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),Parallel(ModifierRepeat(kind=#,dep=連用修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[*2X2]&[*2X3]、[X4]&[X5]による[X6]といった、[*1X7]を[#1Y1]&[Y2]した",
+    "has_parallel": true
+  },
+  "229": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(です))",
+    "representative_pattern": "[X1]は、[*1Y1]です",
+    "has_parallel": false
+  },
+  "230": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]は、[*1Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "231": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]は、[*1Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "232": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)),LiteralNode(です))",
+    "representative_pattern": "[X1]は、[*1Y1]& [Y2]です",
+    "has_parallel": true
+  },
+  "233": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(とする),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(いる))",
+    "representative_pattern": "[X1]は、[*1X2]を[Y1]とする[X3]に[Y2]いる",
+    "has_parallel": false
+  },
+  "234": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(としている))",
+    "representative_pattern": "[X1]は、[*1X2]を[Y1]としている",
+    "has_parallel": false
+  },
+  "235": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(もされて))",
+    "representative_pattern": "[X1]は、[*1X2]を[Y1]し、[X3]に[Y2]もされて",
+    "has_parallel": false
+  },
+  "236": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(において、),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(しました))",
+    "representative_pattern": "[X1]は、[*1X2]において、[X3]を[Y1]しました",
+    "has_parallel": false
+  },
+  "237": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(である),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[*1X2]である[X3]を[Y1]した",
+    "has_parallel": false
+  },
+  "238": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(で),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]は、[*1X2]で[X3]を[Y1]した",
+    "has_parallel": false
+  },
+  "239": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=))|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]は、[*1X2]&[X3]を[Y1]している",
+    "has_parallel": true
+  },
+  "240": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(は、),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=))|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(させた))",
+    "representative_pattern": "[X1]は、[*1X2]&[X3]を[Y1]させた",
+    "has_parallel": true
+  },
+  "241": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(で))",
+    "representative_pattern": "[X1]の[Y2]で",
+    "has_parallel": false
+  },
+  "242": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]の[Y1]は、[X2]が[Y1]し",
+    "has_parallel": false
+  },
+  "243": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(である),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)))",
+    "representative_pattern": "[X1]の[Y1]である[X2]&[X3]&[X4]&[X5]&[X6]&[X7]&[X8]",
+    "has_parallel": true
+  },
+  "244": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(である),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]の[Y1]である[X2]",
+    "has_parallel": false
+  },
+  "245": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(であり),VariableNode(symbol=Y,pos=),LiteralNode(でした))",
+    "representative_pattern": "[X1]の[Y1]であり[Y2]でした",
+    "has_parallel": false
+  },
+  "246": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(です))",
+    "representative_pattern": "[X1]の[Y1]&[Y2]です",
+    "has_parallel": true
+  },
+  "247": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]の[Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "248": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]の[Y1]&[X2]",
+    "has_parallel": true
+  },
+  "249": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]の[Y1]",
+    "has_parallel": false
+  },
+  "250": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]の[X2]を[Y1]",
+    "has_parallel": false
+  },
+  "251": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]の[X2]は[X3]である",
+    "has_parallel": false
+  },
+  "252": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]の[X2]の[X3]は",
+    "has_parallel": false
+  },
+  "253": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X1]の[X2]に[Y1]する",
+    "has_parallel": false
+  },
+  "254": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(いる))",
+    "representative_pattern": "[X1]の[X2]に[Y1]いる",
+    "has_parallel": false
+  },
+  "255": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]の[X2]に[Y1]",
+    "has_parallel": false
+  },
+  "256": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(として),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]の[X2]として[Y1]した[X3]は[X4]である",
+    "has_parallel": false
+  },
+  "257": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]の[X2]である",
+    "has_parallel": false
+  },
+  "258": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(された),VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(という))",
+    "representative_pattern": "[X1]の[X2]で[Y1]された[X3]は[X4]という",
+    "has_parallel": false
+  },
+  "259": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(された),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]の[X2]で[Y1]された[X3]",
+    "has_parallel": false
+  },
+  "260": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(で),ModifierRepeat(kind=#,dep=連用修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(され))",
+    "representative_pattern": "[X1]の[X2]で[#1Y1]され",
+    "has_parallel": false
+  },
+  "261": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]の[X2]が[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "262": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(する),VariableNode(symbol=X,pos=),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]の[X2]、[X3]の[X4]、[*1X5]に[Y1]する[X6]、[X7]の[X8]、[X9]の[X10]を[Y2]",
+    "has_parallel": false
+  },
+  "263": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(による),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]による[X2]の[X3]の[X4]は[X5]",
+    "has_parallel": false
+  },
+  "264": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),VariableNode(symbol=Y,pos=),LiteralNode(され))",
+    "representative_pattern": "[X1]によって[Y1]され",
+    "has_parallel": false
+  },
+  "265": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(されました))",
+    "representative_pattern": "[X1]によって[Y1]&[Y2]されました",
+    "has_parallel": true
+  },
+  "266": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(され))",
+    "representative_pattern": "[X1]によって[Y1]&[Y2]され",
+    "has_parallel": true
+  },
+  "267": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(されました))",
+    "representative_pattern": "[X1]によって[Y1]&[Y2]&[Y3]&[Y4]されました",
+    "has_parallel": true
+  },
+  "268": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]によって[Y1]&[Y2]&[Y3]",
+    "has_parallel": true
+  },
+  "269": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),VariableNode(symbol=Y,pos=サ変),LiteralNode(され))",
+    "representative_pattern": "[X1]によって[Y1-サ変]され",
+    "has_parallel": false
+  },
+  "270": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=サ変)|VariableNode(symbol=Y,pos=サ変)))",
+    "representative_pattern": "[X1]によって[Y1-サ変]&[Y2-サ変]",
+    "has_parallel": true
+  },
+  "271": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(によって),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]によって[X2]が[Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "272": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(にも),VariableNode(symbol=Y,pos=),LiteralNode(されている))",
+    "representative_pattern": "[X1]にも[Y1]されている",
+    "has_parallel": false
+  },
+  "273": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(にも),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X1]にも[Y1]された",
+    "has_parallel": false
+  },
+  "274": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(には、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(などが),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]には、[X2]&[X3]&[X4]&[X5]&[X6]などが[Y1]している",
+    "has_parallel": true
+  },
+  "275": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(には、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]には、[X2]&[X3]&[X4]&[X5]&[X6]&[X7]が[Y1]している",
+    "has_parallel": true
+  },
+  "276": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(には、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]には、[X2]&[X3]&[X4]&[X5]&[X6]&[X7]&[X8]&[X9]が[Y1]している",
+    "has_parallel": true
+  },
+  "277": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(には、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]には、[X2]&[X3]&[X4]&[X5]&[X6]&[X7]&[X8]&[X9]&[X10]が[Y1]している",
+    "has_parallel": true
+  },
+  "278": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(には、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]には、[X2]&[X3]&[X4]&[X5]&[X6]&[X7]&[X8]&[X9]&[X10]&[X11]が[Y1]している",
+    "has_parallel": true
+  },
+  "279": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]に[Y1]した[X2]",
+    "has_parallel": false
+  },
+  "280": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(、))",
+    "representative_pattern": "[X1]に[Y1]された[X2]の[X3]、",
+    "has_parallel": false
+  },
+  "281": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(され、),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]に[Y1]され、[Y2]",
+    "has_parallel": false
+  },
+  "282": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(しました))",
+    "representative_pattern": "[X1]に[Y1]&[Y2]しました",
+    "has_parallel": true
+  },
+  "283": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=サ変),LiteralNode(し))",
+    "representative_pattern": "[X1]に[Y1-サ変]し",
+    "has_parallel": false
+  },
+  "284": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=サ変),LiteralNode(され、),VariableNode(symbol=Y,pos=サ変),LiteralNode(した))",
+    "representative_pattern": "[X1]に[Y1-サ変]され、[Y2-サ変]した",
+    "has_parallel": false
+  },
+  "285": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=X,pos=),LiteralNode(から),VariableNode(symbol=Y,pos=),LiteralNode(されました))",
+    "representative_pattern": "[X1]に[X2]から[Y1]されました",
+    "has_parallel": false
+  },
+  "286": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]に[X2]が[Y1]した",
+    "has_parallel": false
+  },
+  "287": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(という),VariableNode(symbol=Y,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]という[Y1]の[X2]である",
+    "has_parallel": false
+  },
+  "288": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(という),VariableNode(symbol=Y,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]という[Y1]である",
+    "has_parallel": false
+  },
+  "289": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(という),VariableNode(symbol=Y,pos=),LiteralNode(がある))",
+    "representative_pattern": "[X1]という[Y1]がある",
+    "has_parallel": false
+  },
+  "290": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(という),VariableNode(symbol=X,pos=),LiteralNode(の))",
+    "representative_pattern": "[X1]という[X2]の",
+    "has_parallel": false
+  },
+  "291": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(という),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X1]という[X2]に[Y1]する",
+    "has_parallel": false
+  },
+  "292": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(と),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]と[Y1]を[Y2]し",
+    "has_parallel": false
+  },
+  "293": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(では),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X1]では[X2]&[X3]&[X4]&[X5]&[X6]&[X7]に[Y1]された",
+    "has_parallel": true
+  },
+  "294": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(での),VariableNode(symbol=X,pos=),LiteralNode(によって),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X1]での[X2]によって[X3]を[Y1]し、[X4]に[Y2]された",
+    "has_parallel": false
+  },
+  "295": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(での),VariableNode(symbol=X,pos=),LiteralNode(によって、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X1]での[X2]によって、[*1X3]を[Y1]し、[X4]に[Y2]された",
+    "has_parallel": false
+  },
+  "296": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(である),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]である[X2]を[Y1]した",
+    "has_parallel": false
+  },
+  "297": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(である),VariableNode(symbol=X,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]である[X2]は、[X3]に[X4]を[Y1]した",
+    "has_parallel": false
+  },
+  "298": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(である),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]である[X2]は",
+    "has_parallel": false
+  },
+  "299": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(された),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]で[Y1]された[X2]は",
+    "has_parallel": false
+  },
+  "300": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(され、),VariableNode(symbol=Y,pos=),LiteralNode(も),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]で[Y1]され、[Y2]も[X2]",
+    "has_parallel": false
+  },
+  "301": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(され、),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]で[Y1]され、[Y2]",
+    "has_parallel": false
+  },
+  "302": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(され、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]で[Y1]され、[*1Y2]",
+    "has_parallel": false
+  },
+  "303": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(され))",
+    "representative_pattern": "[X1]で[Y1]され",
+    "has_parallel": false
+  },
+  "304": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(となっています))",
+    "representative_pattern": "[X1]で[Y1]&[Y2]となっています",
+    "has_parallel": true
+  },
+  "305": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=サ変),LiteralNode(され、),VariableNode(symbol=Y,pos=),LiteralNode(に))",
+    "representative_pattern": "[X1]で[Y1-サ変]され、[Y2]に",
+    "has_parallel": false
+  },
+  "306": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=サ変),LiteralNode(され))",
+    "representative_pattern": "[X1]で[Y1-サ変]され",
+    "has_parallel": false
+  },
+  "307": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]で[X2]を[Y1]した",
+    "has_parallel": false
+  },
+  "308": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X1]で[X2]に[Y1]された",
+    "has_parallel": false
+  },
+  "309": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(から),VariableNode(symbol=Y,pos=),LiteralNode(されました))",
+    "representative_pattern": "[X1]から[Y1]されました",
+    "has_parallel": false
+  },
+  "310": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(をした),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]が[Y1]をした[X2]は",
+    "has_parallel": false
+  },
+  "311": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]が[Y1]を[Y2]を",
+    "has_parallel": false
+  },
+  "312": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(た),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]が[Y1]を[Y2]た[X2]は",
+    "has_parallel": false
+  },
+  "313": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(た),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]が[Y1]を[Y2]た[X2]である",
+    "has_parallel": false
+  },
+  "314": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]が[Y1]を[Y2]した[X2]",
+    "has_parallel": false
+  },
+  "315": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]が[Y1]を[Y2]した[*1X2]は[X3]である",
+    "has_parallel": false
+  },
+  "316": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(も),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(とする),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]が[Y1]も[Y2]した[X2]を[Y3]とする[X3]である",
+    "has_parallel": false
+  },
+  "317": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]が[Y1]の[X2]は[X3]",
+    "has_parallel": false
+  },
+  "318": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(として))",
+    "representative_pattern": "[X1]が[Y1]として",
+    "has_parallel": false
+  },
+  "319": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(と),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]が[Y1]と[Y2]",
+    "has_parallel": false
+  },
+  "320": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(する),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]が[Y1]する[X2]は",
+    "has_parallel": false
+  },
+  "321": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(しています))",
+    "representative_pattern": "[X1]が[Y1]しています",
+    "has_parallel": false
+  },
+  "322": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]が[Y1]した[X2]を[Y2]&[Y3]",
+    "has_parallel": true
+  },
+  "323": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(は、))",
+    "representative_pattern": "[X1]が[Y1]した[X2]は、",
+    "has_parallel": false
+  },
+  "324": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]が[Y1]した[X2]は",
+    "has_parallel": false
+  },
+  "325": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]が[Y1]した[X2]の[X4]は",
+    "has_parallel": false
+  },
+  "326": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]が[Y1]した[X2]の[X3]",
+    "has_parallel": false
+  },
+  "327": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(であり))",
+    "representative_pattern": "[X1]が[Y1]した[X2]であり",
+    "has_parallel": false
+  },
+  "328": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),ModifierRepeat(kind=*,dep=連体修飾,count=2,head=VariableNode(symbol=X,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]が[Y1]した[*2X2]は[X3]である",
+    "has_parallel": false
+  },
+  "329": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]が[Y1]した[*1X2]を",
+    "has_parallel": false
+  },
+  "330": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]が[Y1]した[*1X2]は[X3]である",
+    "has_parallel": false
+  },
+  "331": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]が[Y1]し[X2]が[Y2]を",
+    "has_parallel": false
+  },
+  "332": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を担当した))",
+    "representative_pattern": "[X1]が[Y1]し、[X2]が[Y2]を担当した",
+    "has_parallel": false
+  },
+  "333": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(た))",
+    "representative_pattern": "[X1]が[Y1]し、[X2]が[Y2]を[Y3]た",
+    "has_parallel": false
+  },
+  "334": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(ha))",
+    "representative_pattern": "[X1]が[Y1]し、[X2]が[Y2]した[X3]ha",
+    "has_parallel": false
+  },
+  "335": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X1]が[Y1]し、[X2]&[X3]が[Y2]する",
+    "has_parallel": true
+  },
+  "336": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し、))",
+    "representative_pattern": "[X1]が[Y1]し、",
+    "has_parallel": false
+  },
+  "337": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(た),VariableNode(symbol=X,pos=),LiteralNode(の))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]た[X2]の",
+    "has_parallel": true
+  },
+  "338": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(た),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(は、),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]た[*1X2]は、[X3]",
+    "has_parallel": true
+  },
+  "339": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(た),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]た[*1X2]、[X3]は",
+    "has_parallel": true
+  },
+  "340": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]した[X2]は",
+    "has_parallel": true
+  },
+  "341": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]した[X2]である",
+    "has_parallel": true
+  },
+  "342": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]した[X2]",
+    "has_parallel": true
+  },
+  "343": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(だ))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]した[*1X2]は[X3]だ",
+    "has_parallel": true
+  },
+  "344": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(であり))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]した[*1X2]は、[X3]であり",
+    "has_parallel": true
+  },
+  "345": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(は))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]した[*1X2]は",
+    "has_parallel": true
+  },
+  "346": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]した",
+    "has_parallel": true
+  },
+  "347": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]を[Y3]、[X2]&[X3]",
+    "has_parallel": true
+  },
+  "348": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(した))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]した",
+    "has_parallel": true
+  },
+  "349": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(た),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]&[Y3]を[Y4]た[X2]は",
+    "has_parallel": true
+  },
+  "350": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(た),VariableNode(symbol=X,pos=),LiteralNode(という))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]&[Y3]を[Y4]た[X2]という",
+    "has_parallel": true
+  },
+  "351": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]&[Y3]を",
+    "has_parallel": true
+  },
+  "352": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]&[Y3]",
+    "has_parallel": true
+  },
+  "353": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(、),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]が[Y1]&[Y2]、[X2]&[X3]が[Y3]を",
+    "has_parallel": true
+  },
+  "354": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]が[Y1]&[X2]を",
+    "has_parallel": true
+  },
+  "355": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]が[Y1]&[X2]",
+    "has_parallel": true
+  },
+  "356": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(た),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(は))",
+    "representative_pattern": "[X1]が[Y1]、[X2]が[Y2]を[Y3]た[*1X3]は",
+    "has_parallel": false
+  },
+  "357": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(、),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]が[Y1]、[X2]が[Y2]を",
+    "has_parallel": false
+  },
+  "358": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=サ変)),LiteralNode(を))",
+    "representative_pattern": "[X1]が[Y1-サ変]&[Y2]を",
+    "has_parallel": true
+  },
+  "359": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=サ変)))",
+    "representative_pattern": "[X1]が[Y1-サ変]&[Y2]",
+    "has_parallel": true
+  },
+  "360": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=サ変)|VariableNode(symbol=Y,pos=サ変)),LiteralNode(を))",
+    "representative_pattern": "[X1]が[Y1-サ変]&[Y2-サ変]を",
+    "has_parallel": true
+  },
+  "361": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]が[X2]を[Y1]した",
+    "has_parallel": false
+  },
+  "362": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]が[X2]を[Y1]し",
+    "has_parallel": false
+  },
+  "363": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(を),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]が[X2]を[Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "364": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]が[X2]を[Y1]",
+    "has_parallel": false
+  },
+  "365": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(を),ModifierRepeat(kind=#,dep=連用修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(している))",
+    "representative_pattern": "[X1]が[X2]を[#1Y1]している",
+    "has_parallel": false
+  },
+  "366": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(を、),VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]が[X2]を、[X3]で[X4]を[Y1]した",
+    "has_parallel": false
+  },
+  "367": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]が[X2]の[X3]を[Y1]に[Y2]を",
+    "has_parallel": false
+  },
+  "368": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(に),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]が[X2]に[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "369": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(と),VariableNode(symbol=X,pos=),LiteralNode(の),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]が[X2]と[X3]の[Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "370": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(き),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]が[X2]で[Y1]を[Y2]き[Y3]を",
+    "has_parallel": false
+  },
+  "371": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]が[X2]&[X3]を[Y1]した",
+    "has_parallel": true
+  },
+  "372": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),ModifierRepeat(kind=#,dep=連用修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]が[#1Y1]を",
+    "has_parallel": false
+  },
+  "373": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(として),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]が[*1Y1]として[*1X2]を",
+    "has_parallel": false
+  },
+  "374": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=サ変))|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]が[*1Y1-サ変]&[Y2]を",
+    "has_parallel": true
+  },
+  "375": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]&[X2]を[Y1]した",
+    "has_parallel": true
+  },
+  "376": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]&[X2]を[Y1]し",
+    "has_parallel": true
+  },
+  "377": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(、),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]&[X2]を[Y1]、[*1X3]を[Y2]した",
+    "has_parallel": true
+  },
+  "378": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(も),VariableNode(symbol=Y,pos=),LiteralNode(です))",
+    "representative_pattern": "[X1]&[X2]も[Y1]です",
+    "has_parallel": true
+  },
+  "379": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(も),VariableNode(symbol=Y,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]&[X2]も[Y1]である",
+    "has_parallel": true
+  },
+  "380": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(も),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]&[X2]も[Y1]している",
+    "has_parallel": true
+  },
+  "381": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]&[X2]は[*1Y1]",
+    "has_parallel": true
+  },
+  "382": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X1]&[X2]の[Y1]に[Y2]する",
+    "has_parallel": true
+  },
+  "383": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),VariableNode(symbol=Y,pos=),LiteralNode(されました))",
+    "representative_pattern": "[X1]&[X2]によって[Y2]されました",
+    "has_parallel": true
+  },
+  "384": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[X1]&[X2]によって[Y1]された",
+    "has_parallel": true
+  },
+  "385": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),VariableNode(symbol=Y,pos=),LiteralNode(され))",
+    "representative_pattern": "[X1]&[X2]によって[Y1]され",
+    "has_parallel": true
+  },
+  "386": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(されました))",
+    "representative_pattern": "[X1]&[X2]によって[Y1]&[Y2]されました",
+    "has_parallel": true
+  },
+  "387": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]&[X2]によって[Y1]&[Y2]&[Y3]",
+    "has_parallel": true
+  },
+  "388": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]&[X2]によって[Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "389": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(されました))",
+    "representative_pattern": "[X1]&[X2]に[Y1]されました",
+    "has_parallel": true
+  },
+  "390": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(され))",
+    "representative_pattern": "[X1]&[X2]に[Y1]され",
+    "has_parallel": true
+  },
+  "391": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(に),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(しました))",
+    "representative_pattern": "[X1]&[X2]に[Y1]&[Y2]しました",
+    "has_parallel": true
+  },
+  "392": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(に),VariableNode(symbol=Y,pos=サ変),LiteralNode(され))",
+    "representative_pattern": "[X1]&[X2]に[Y1-サ変]され",
+    "has_parallel": true
+  },
+  "393": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(という),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X1]&[X2]という[X3]に[Y1]する",
+    "has_parallel": true
+  },
+  "394": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(され))",
+    "representative_pattern": "[X1]&[X2]で[Y1]され",
+    "has_parallel": true
+  },
+  "395": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]&[X2]が[Y1]を[Y2]は、[X3]である",
+    "has_parallel": true
+  },
+  "396": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]&[X2]が[Y1]を[Y2]",
+    "has_parallel": true
+  },
+  "397": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]&[X2]が[Y1]を",
+    "has_parallel": true
+  },
+  "398": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(する),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]&[X2]が[Y1]する[X3]の[X4]",
+    "has_parallel": true
+  },
+  "399": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X1]&[X2]が[Y1]する",
+    "has_parallel": true
+  },
+  "400": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]&[X2]が[Y1]し[X3]が[Y2]した[X4]は",
+    "has_parallel": true
+  },
+  "401": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]&[X2]が[Y1]し",
+    "has_parallel": true
+  },
+  "402": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]&[X2]が[Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "403": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(も),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(は))",
+    "representative_pattern": "[X1]&[X2]が[Y1]&[Y2]も[Y3]した[X3]は",
+    "has_parallel": true
+  },
+  "404": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=サ変),LiteralNode(を))",
+    "representative_pattern": "[X1]&[X2]が[Y1-サ変]を",
+    "has_parallel": true
+  },
+  "405": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]&[X2]が[X3]&[X4]を[*1X5]を[Y1]した",
+    "has_parallel": true
+  },
+  "406": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),Parallel(ModifierRepeat(kind=#,dep=連用修飾,count=1,head=VariableNode(symbol=Y,pos=))|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[X1]&[X2]が[#1Y1]&[Y2]を",
+    "has_parallel": true
+  },
+  "407": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(おり))",
+    "representative_pattern": "[X1]&[X2]&[X3]を[Y1]おり",
+    "has_parallel": true
+  },
+  "408": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(はで),VariableNode(symbol=X,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]&[X2]&[X3]はで[X4]を[Y1]した",
+    "has_parallel": true
+  },
+  "409": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),VariableNode(symbol=Y,pos=),LiteralNode(され))",
+    "representative_pattern": "[X1]&[X2]&[X3]によって[Y1]され",
+    "has_parallel": true
+  },
+  "410": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(され))",
+    "representative_pattern": "[X1]&[X2]&[X3]によって[Y1]&[Y2]され",
+    "has_parallel": true
+  },
+  "411": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(によって),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)))",
+    "representative_pattern": "[X1]&[X2]&[X3]によって[Y1]&[Y2]",
+    "has_parallel": true
+  },
+  "412": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]&[X2]&[X3]が[Y1]を[Y2]した[X4]",
+    "has_parallel": true
+  },
+  "413": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]&[X2]&[X3]が[Y1]を",
+    "has_parallel": true
+  },
+  "414": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(する))",
+    "representative_pattern": "[X1]&[X2]&[X3]が[Y1]する",
+    "has_parallel": true
+  },
+  "415": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[X1]&[X2]&[X3]が[Y1]した[X4]",
+    "has_parallel": true
+  },
+  "416": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(し))",
+    "representative_pattern": "[X1]&[X2]&[X3]が[Y1]し",
+    "has_parallel": true
+  },
+  "417": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]&[X2]&[X3]が[Y1]",
+    "has_parallel": true
+  },
+  "418": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(に))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]を[Y1]に",
+    "has_parallel": true
+  },
+  "419": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(らが),VariableNode(symbol=Y,pos=),LiteralNode(として))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]らが[Y1]として",
+    "has_parallel": true
+  },
+  "420": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(は、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]は、[X5]に[Y1]している",
+    "has_parallel": true
+  },
+  "421": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(され))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]で[Y1]され",
+    "has_parallel": true
+  },
+  "422": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]が[Y1]を",
+    "has_parallel": true
+  },
+  "423": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(する),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]が[Y1]する[X5]である",
+    "has_parallel": true
+  },
+  "424": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]が[Y1]した",
+    "has_parallel": true
+  },
+  "425": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(らは、),VariableNode(symbol=X,pos=),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]らは、[X6]に[Y1]している",
+    "has_parallel": true
+  },
+  "426": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]は[X6]の[Y1]を",
+    "has_parallel": true
+  },
+  "427": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(されました))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]に[Y1]されました",
+    "has_parallel": true
+  },
+  "428": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を),VariableNode(symbol=Y,pos=),LiteralNode(した),VariableNode(symbol=X,pos=),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]が[Y1]を[Y2]した[X6]は[X7]である",
+    "has_parallel": true
+  },
+  "429": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(している))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]が[Y1]している",
+    "has_parallel": true
+  },
+  "430": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(に),VariableNode(symbol=Y,pos=),LiteralNode(されました))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]&[X6]に[Y1]されました",
+    "has_parallel": true
+  },
+  "431": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]&[X6]が[Y1]を",
+    "has_parallel": true
+  },
+  "432": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]&[X6]が[Y1]",
+    "has_parallel": true
+  },
+  "433": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(を))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]&[X6]が[X7]の[Y2]を",
+    "has_parallel": true
+  },
+  "434": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(からなる),VariableNode(symbol=Y,pos=),LiteralNode(が))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]&[X6]が[X7]&[X8]&[X9]からなる[Y1]が",
+    "has_parallel": true
+  },
+  "435": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(からなる),VariableNode(symbol=Y,pos=),LiteralNode(が))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]&[X6]が[X7]&[X8]&[X9]&[X10]からなる[Y1]が",
+    "has_parallel": true
+  },
+  "436": {
+    "structure_key": "Sequence(Parallel(VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[X1]&[X2]&[X3]&[X4]&[X5]&[X6]&[X7]が[Y1]した",
+    "has_parallel": true
+  },
+  "437": {
+    "structure_key": "Sequence(Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=))|VariableNode(symbol=X,pos=)),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(された),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[X1]&[*1X2]で[Y1]された[X3]である",
+    "has_parallel": true
+  },
+  "438": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=サ変),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(です))",
+    "representative_pattern": "[X1-サ変]の[Y1]です",
+    "has_parallel": false
+  },
+  "439": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(も),VariableNode(symbol=X,pos=),LiteralNode(です))",
+    "representative_pattern": "[*1Y2]も[X2]です",
+    "has_parallel": false
+  },
+  "440": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(も),VariableNode(symbol=X,pos=),LiteralNode(である))",
+    "representative_pattern": "[*1Y2]も[X2]である",
+    "has_parallel": false
+  },
+  "441": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[*1Y1]は[X1]",
+    "has_parallel": false
+  },
+  "442": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(と),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[*1Y2]と[X2]",
+    "has_parallel": false
+  },
+  "443": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(も),VariableNode(symbol=X,pos=))",
+    "representative_pattern": "[*1Y1]も[X1]",
+    "has_parallel": false
+  },
+  "444": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(である),VariableNode(symbol=X,pos=),LiteralNode(という))",
+    "representative_pattern": "[*1Y1]である[X1]という",
+    "has_parallel": false
+  },
+  "445": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(を),VariableNode(symbol=X,pos=),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した))",
+    "representative_pattern": "[*1X1]を[X2]が[Y1]した",
+    "has_parallel": false
+  },
+  "446": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(であり))",
+    "representative_pattern": "[*1X1]は[X2]であり",
+    "has_parallel": false
+  },
+  "447": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(だ))",
+    "representative_pattern": "[*1X1]は[X2]だ",
+    "has_parallel": false
+  },
+  "448": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(は),ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=Y,pos=)),LiteralNode(である),VariableNode(symbol=X,pos=),LiteralNode(が),Parallel(VariableNode(symbol=Y,pos=)|VariableNode(symbol=Y,pos=)),LiteralNode(を))",
+    "representative_pattern": "[*1X1]は[*1Y1]である[X2]が[Y2]&[Y3]を",
+    "has_parallel": true
+  },
+  "449": {
+    "structure_key": "Sequence(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=)),LiteralNode(で),VariableNode(symbol=Y,pos=),LiteralNode(された))",
+    "representative_pattern": "[*1X1]で[Y1]された",
+    "has_parallel": false
+  },
+  "450": {
+    "structure_key": "Sequence(Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=))|VariableNode(symbol=X,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(によって),VariableNode(symbol=Y,pos=サ変),LiteralNode(されました。))",
+    "representative_pattern": "[*1X1]&[X2]は[X3]によって[Y1-サ変]されました。",
+    "has_parallel": true
+  },
+  "451": {
+    "structure_key": "Sequence(Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=))|VariableNode(symbol=X,pos=)),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(した),ModifierRepeat(kind=*,dep=連体修飾,count=2,head=VariableNode(symbol=X,pos=)),LiteralNode(は),VariableNode(symbol=X,pos=),LiteralNode(だ))",
+    "representative_pattern": "[*1X1]&[X2]が[Y1]した[*2X3]は[X4]だ",
+    "has_parallel": true
+  },
+  "452": {
+    "structure_key": "Sequence(Parallel(ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=))|ModifierRepeat(kind=*,dep=連体修飾,count=1,head=VariableNode(symbol=X,pos=))),LiteralNode(が),VariableNode(symbol=Y,pos=),LiteralNode(しており))",
+    "representative_pattern": "[*1X1]&[*1X2]が[Y1]しており",
+    "has_parallel": true
+  },
+  "453": {
+    "structure_key": "Sequence(VariableNode(symbol=X,pos=),LiteralNode(の),VariableNode(symbol=Y,pos=),LiteralNode(の),VariableNode(symbol=X,pos=),LiteralNode(の))",
+    "representative_pattern": "[X1]の[Y1]の[X2]が",
+    "has_parallel": false
+  }
+}

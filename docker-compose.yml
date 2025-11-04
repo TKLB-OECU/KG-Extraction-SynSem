@@ -1,0 +1,17 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: .docker/dev/Dockerfile
+    container_name: kess_dev
+    volumes:
+      - ./app:/app
+      - ./app/model:/app/model
+      - ./app/logs:/app/logs
+    ports:
+      - "8000:8000"
+    env_file:
+      - .docker/dev/.env
+    environment:
+      - LOG_LEVEL=DEBUG
+    restart: no

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>分節エディタ</title>
+    <link rel="icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="/static/global.css">
+    <link rel="stylesheet" href="/static/bunsetu_editor.css">
+    <link rel="stylesheet" href="/static/cky.css">
+    <link rel="stylesheet" href="/static/matching.css">
+    <link rel="stylesheet" href="/static/ontology-editor.css">
+    <link rel="stylesheet" href="/static/semantic-verify.css">
+</head>
+<body>
+    <div class="header">
+        <h1>SynSem-Aline</h1>
+    <textarea id="input-text" placeholder="テキストを入力してください。"></textarea>
+        <button id="submit-btn">Analysis</button>
+    </div>
+
+    <div id="sentence-selector" class="sentence-selector"></div>
+    
+    <div class="container">
+        
+        <div class="left-panel">
+            <h2>segment</h2>
+            <ul id="bunsetsu-list" class="bunsetsu-list">
+                <li class="empty-state">まだ分析されていません</li>
+            </ul>
+        </div>
+
+        <div class="center-panel">
+            <h2>Editor</h2>
+            <div id="editor-area">
+                <div class="empty-state">左側からsegmentを選択してください</div>
+            </div>
+            <button id="send-to-cky-btn">CKY Purser Send</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>CKY purser</h2>
+        <div id="cky-content">
+            <div class="empty-state">編集後のデータを送信してください</div>
+        </div>
+    </div>
+
+    <div id="pattern-matching-section" style="display: none;"></div>
+
+    <div class="section">
+        <h2>Semantic Check</h2>
+        <div class="semantic-verify-container">
+            
+            <div class="semantic-left-panel">
+                <div id="ontology-editor-section" class="ontology-compact"></div>
+                <div id="triples-selector-section" class="triples-selector">
+                    
+                </div>
+            </div>
+
+            <div class="semantic-center-panel">
+                <div id="semantic-verify-section" class="verify-process-flow">
+                    <div class="empty-state">トリプルを選択して検証を実行してください</div>
+                </div>
+            </div>
+
+            <div class="semantic-prompts-panel">
+                <div id="semantic-prompts-section" class="verify-prompts">
+                    <div class="empty-state">プロンプトがここに表示されます</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Semantic Checked Triple</h2>
+        <div class="triple-management-container">
+            <div class="management-controls">
+                <button onclick="window.clearRegisteredTriples()" class="clear-btn">All Clear</button>
+            </div>
+            <div id="registered-triples-section" class="registered-triples-section">
+                <div class="empty-state">登録済みトリプルはありません</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/static/global.js"></script>
+    <script src="/static/bunsetu_editor.js"></script>
+    <script src="/static/pattern-matching-flow.js"></script>
+    <script src="/static/cky.js"></script>
+    <script src="/static/ontology-editor.js"></script>
+    <script src="/static/semantic-verify.js"></script>
+    <script src="/static/integration-test.js"></script>
+    <script>
+        // ページロード時にオントロジーエディターを表示
+        window.addEventListener('load', () => {
+            window.displayOntologyEditor();
+        });
+    </script>
+
+</body>
+</html>

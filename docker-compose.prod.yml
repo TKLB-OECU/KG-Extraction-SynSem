@@ -1,0 +1,13 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: .docker/prod/Dockerfile
+    container_name: kess_prod
+    env_file:
+      - .docker/prod/.env
+    ports:
+      - "8000:8000"
+    environment:
+      - LOG_LEVEL=INFO
+    restart: always  

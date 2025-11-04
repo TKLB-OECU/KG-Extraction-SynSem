@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+ginza
+ja_ginza
+torch
+transformers
+safetensors
+google-generativeai

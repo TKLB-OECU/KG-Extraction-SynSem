@@ -1,0 +1,273 @@
+.pattern-matching-layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 24px;
+  margin-top: 15px;
+}
+
+.pattern-selector-panel {
+  background: #fafbfc;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pattern-selector-panel h3 {
+  margin: 0 0 16px 0;
+  font-size: 15px;
+  color: #1f2937;
+  font-weight: 600;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.pattern-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.control-btn {
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  background: #f9fafb;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #374151;
+  transition: all 0.15s;
+}
+
+.control-btn:hover {
+  background: #f3f4f6;
+  border-color: #9ca3af;
+}
+
+.control-btn.primary {
+  background: #0066cc;
+  color: white;
+  border-color: #0066cc;
+}
+
+.control-btn.primary:hover {
+  background: #0052a3;
+}
+
+.pattern-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  overflow-y: auto;
+  flex: 1;
+  min-height: 0;
+}
+
+.pattern-group {
+  margin-bottom: 12px;
+}
+
+.pattern-group h4 {
+  margin: 0 0 6px 0;
+  font-size: 12px;
+  color: #6b7280;
+  font-weight: 600;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.pattern-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 8px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  transition: all 0.15s;
+  background: transparent;
+}
+
+.pattern-checkbox input {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.pattern-checkbox input:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.status-indicator {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-top: 5px;
+  flex-shrink: 0;
+}
+
+.pattern-text {
+  flex: 1;
+  font-size: 12px;
+  font-family: ''Courier New'', monospace;
+  word-break: break-all;
+  line-height: 1.4;
+  color: #374151;
+}
+
+.pattern-checkbox.light {
+  background: #f0fdf4;
+  border-color: #d1fae5;
+}
+
+.pattern-checkbox.light:hover {
+  background: #dcfce7;
+  border-color: #a7f3d0;
+}
+
+.pattern-checkbox.light .status-indicator {
+  background: #10b981;
+}
+
+.pattern-checkbox.disabled {
+  background: #f3f4f6;
+  border-color: #e5e7eb;
+  opacity: 0.6;
+}
+
+.pattern-checkbox.disabled .status-indicator {
+  background: #d1d5db;
+}
+
+.matching-results-panel {
+  background: #fafbfc;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 16px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.matching-results-panel h3 {
+  margin: 0 0 16px 0;
+  font-size: 15px;
+  color: #1f2937;
+  font-weight: 600;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+#matching-results-content {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.matching-summary {
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #eff6ff;
+  border-radius: 6px;
+  border-left: 3px solid #3b82f6;
+}
+
+.matching-summary p {
+  margin: 0;
+  color: #1f2937;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.triples-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.triples-table thead {
+  background: #f9fafb;
+}
+
+.triples-table th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+  font-weight: 600;
+  color: #374151;
+  font-size: 12px;
+}
+
+.triples-table td {
+  padding: 10px;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 12px;
+  color: #374151;
+}
+
+.triples-table tbody tr:hover {
+  background: #f9fafb;
+}
+
+.empty-state {
+  text-align: center;
+  color: #9ca3af;
+  padding: 40px 20px;
+  font-size: 13px;
+}
+
+.matching-error {
+  padding: 12px;
+  background: #fef2f2;
+  border: 1px solid #fee2e2;
+  border-radius: 6px;
+  color: #991b1b;
+}
+
+.matching-error h3 {
+  margin: 0 0 8px 0;
+  color: #991b1b;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.matching-error p {
+  margin: 0;
+  font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+  .pattern-matching-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .pattern-selector-panel,
+  .matching-results-panel {
+    height: auto;
+    max-height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pattern-matching-layout {
+    gap: 16px;
+  }
+
+  .pattern-selector-panel,
+  .matching-results-panel {
+    height: auto;
+    max-height: 600px;
+  }
+}
